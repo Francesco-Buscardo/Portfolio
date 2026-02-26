@@ -96,10 +96,9 @@ h2 {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
-    background-color: #eee; /* Placeholder per l'immagine */
-    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    background-color: #eee;
     flex: 1;
 }
 
@@ -145,9 +144,13 @@ h2 {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .grid-content, .profile-flex {
+    .grid-content{
         grid-template-columns: 1fr;
         flex-direction: column;
+    }
+    .profile-flex {
+        flex-direction: column;
+        text-align: center;
     }
     .profile-photo {
         order: -1;
