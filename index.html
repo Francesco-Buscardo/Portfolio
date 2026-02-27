@@ -12,9 +12,13 @@
 
     <div class="cv-container">
         <header class="dark-header">
-            <button onclick="window.print()" download="Francesco_Buscardo_CV.pdf" class="download-btn">
-                DOWNLOAD .pdf <span>↓</span>
+            <button id="download-btn" class="download-btn">
+                DOWNLOAD .pdf
             </button>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+            <script src="script.js"> </script>
+
 
             <h1>FRANCESCO BUSCARDO</h1>
             <div class="line-container">
@@ -38,8 +42,8 @@
                 <h2>PROFESSIONAL PROFILE</h2>
                 <div class="profile-flex">
                     <p>
-                        Currently pursuing a degree in Computer Science at the University of Trento,
-                        with a strong interest in software engineering, machine learning, and embedded systems.
+                        Currently pursuing a bachelor degree in Computer Science at the University of Trento,
+                        with a strong interest in software engineering, machine learning and embedded systems.
                     </p>
                     <p>   
                         My background in hospitality has equipped me with essential soft skills, including teamwork, 
